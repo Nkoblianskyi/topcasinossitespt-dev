@@ -27,7 +27,8 @@ export function Header() {
             </div>
 
             {/* Center: Brand */}
-            <Link href="/" className="flex flex-col items-center group">
+            <Link href="/" className="flex gap-2 items-center group">
+            <Image src="/favicon.ico" alt="Logo" width={24} height={24} />
               <span className="text-base md:text-lg font-serif font-bold tracking-wide text-gold-gradient uppercase leading-none">
                 topcasinossitespt
               </span>

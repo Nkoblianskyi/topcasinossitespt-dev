@@ -12,11 +12,11 @@ export function Footer() {
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
           {/* Brand */}
           <div className="lg:col-span-2">
-            <Link href="/" className="flex flex-col mb-4">
+            <Link href="/" className="flex items-center gap-2 mb-4">
+              <Image src="/favicon.ico" alt="Logo" width={24} height={24} />
               <span className="text-lg font-serif font-bold tracking-wide text-gold-gradient uppercase leading-none">
                 topcasinossitespt
               </span>
-              <span className="text-[9px] text-muted-foreground tracking-widest uppercase">.com</span>
             </Link>
             <p className="text-xs text-muted-foreground leading-relaxed mb-5 max-w-sm">
               Portal independente de análises de casinos online licenciados em Portugal. Informação imparcial e
